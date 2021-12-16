@@ -1,0 +1,40 @@
+footer {
+    color: white;
+    position: absolute;
+    background-color:rgba(68, 68, 68, 0.8);
+    min-width: 100%;
+    height: 120px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+    .footer_content {
+        display: flex;
+        flex-direction: column;
+        gap:24px;
+        white-space : nowrap;
+        
+    }
+
+        .footer_h  {
+            display: flex;
+            flex-direction: row;
+            gap: 14px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .footer_h > nav {
+            text-decoration: underline;
+        }
+
+        .footer_b {
+            display: flex;
+            flex-direction: row;
+            gap:20px;
+            font-size: 12px;
+
+        }

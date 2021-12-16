@@ -1,0 +1,37 @@
+.leg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    gap: 340px;
+    margin-top:138px;
+}
+
+    .together_txt {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+    }
+    
+    
+    
+    
+    .together {
+            font-size: 40px;
+            font-weight: bold;
+        }
+        
+        
+
+
+
+
+
+
+        .together_img {
+            height: 100%;
+    }
+
+        .together_img > img {
+            height: 382px;
+        }

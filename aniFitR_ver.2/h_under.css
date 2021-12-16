@@ -1,0 +1,26 @@
+.h_under {
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    line-height:42px;
+    margin-top:140px;
+    align-items:center;
+}
+
+.h_under > .h_under_txt {
+    position: absolute;
+    font-weight: medium;
+}
+
+.h_under > .h_under_img {
+    position: absolute;
+    margin-top: 6.6px;
+    width: 236px;
+    
+}
+
+
+
+.h_under > .h_under_img > img {
+    border: 1px solid white;
+}
