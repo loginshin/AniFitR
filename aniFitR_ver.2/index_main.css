@@ -1,0 +1,35 @@
+.main {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction:column
+}
+    .main_head {
+        text-align: center;
+    }
+        .main_head_h {
+            display: flex;
+            flex-direction: column;
+            color: #7868e6;
+            font-weight: bold;
+            margin-top:146px
+        }
+
+            .main_head_h > h1 {
+                font-size: 50px;
+                line-height: 54px;
+            }
+
+
+        .main_head_txt {
+            margin-top: 58px;
+        }
+
+            .main_head_txt > p {
+                line-height: 32px;
+                font-size: 24px;
+            }
+
+            .main_head_txt > p > strong {
+                font-weight: bold;
+            }
