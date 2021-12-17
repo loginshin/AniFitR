@@ -34,3 +34,24 @@
             .main_head_txt > p > strong {
                 font-weight: bold;
             }
+
+
+
+            @media (max-width:1000px) {
+
+                .main_head_h > h1 {
+                    font-size: 40px;
+                    line-height: 46px;
+                }
+    
+                .main_head_txt > p {
+                    line-height: 28px;
+                    font-size: 20px;
+                    font-weight: Regular;
+                }
+    
+                .main_head_txt > p > strong {
+                    font-weight: bold;
+                }
+    
+            }

@@ -3,13 +3,20 @@
     
 }
 
+
+    
+
+
     .BF_content {
         display: flex;
         flex-direction:row;
         margin-top: 160px;
         justify-content: center;
         gap: 130px;
+        align-items: center;
     }
+
+
 
 
     .BF_content2 {
@@ -77,4 +84,27 @@
                     height: 15px;
                     margin-left:6px;
                     margin-top: 6px;
+                }
+
+
+
+
+                @media (max-width:1000px) {
+                    .BF_content {
+                        display: flex;
+                        flex-direction:column;
+                        margin-top: 160px;
+                        justify-content: center;
+                        gap: 20px;
+                        align-items: center;
+                    }
+            
+                    .BF_content2 {
+                        display: flex;
+                        flex-direction:column;
+                        margin-top: 80px;
+                        justify-content: center;
+                        gap: 20px;
+                        align-items: center;
+                    }
                 }

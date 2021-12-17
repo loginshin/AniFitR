@@ -10,6 +10,7 @@
         flex-direction: row;
         margin-top: 114px;
         gap: 20px;
+        align-items: center;
         
     }
 
@@ -76,4 +77,29 @@
 
         .FAQ_img {
           width: 378px;
+        }
+
+
+
+
+
+        @media (max-width:1000px) {
+            
+        .FAQ_content {
+            display: flex;
+            flex-direction: column-reverse;
+            margin-top: 114px;
+            gap: 20px;
+            align-items: center;
+    }
+
+        .QnA_A > p{
+           color: black;
+           font-size: 18px;
+           line-height: 22px;
+           font-weight: Regular;
+    }
+
+
+
         }

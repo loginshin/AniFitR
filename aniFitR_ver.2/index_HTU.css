@@ -5,14 +5,31 @@
         }
 
 
+      
+
+            .HTU_content {
+                margin-top: 140px;
+                display:flex;
+                justify-content: center;
+                gap: 180px;
+                
+            }
+    
+
+        }
+
+
         .HTU_content {
             margin-top: 140px;
             display:flex;
+            align-items: center;
             justify-content: center;
-            gap: 180px;
+            gap: 250px;
             
         }
-        
+
+
+
         .HTU_contentbox {
                 width: fit-content;
                 display: flex;
@@ -23,11 +40,13 @@
             }
         
                 .HTU_img {
+
                     height: 214px;
                 }
                 
                 .HTU_img > img {
                     height: 100%;
+                    width: 100%;
                 }   
 
             .HTU_txt {
@@ -47,3 +66,13 @@
                 line-height: 24px;
                 font-weight: Regular;
             }
+
+
+            @media (max-width: 1000px) {
+                .HTU_content {
+                    margin-top: 140px;
+                    display:flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    
+                }
