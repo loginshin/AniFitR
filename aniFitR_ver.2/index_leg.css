@@ -11,7 +11,7 @@
         flex-direction: column;
         align-items: center;
         color: white;
-        gap: 36px;
+        gap: 12px;
         background: #7868e6;
     }
 
@@ -20,7 +20,7 @@
             margin-top: 8px;
             line-height: 18px;
             font-weight: medium;
-            margin-top: -30px;
+            margin-top: -8px;
         }
     
     
@@ -29,6 +29,7 @@
     .together {
             font-size: 40px;
             font-weight: bold;
+            margin-bottom: 20px;
         }
 
 
@@ -44,16 +45,18 @@ button::after {
 
     
      button {
-        background: none;
-        border: 3px solid white;
+        background: #fff;
+        border: 3px solid #fff;
         border-radius: 10px;
-        color: #fff;
+        color: #7868e6;
         display: block;
         font-family: 'Noto Sans KR';
         /* background-color: #4e4a6a; */
         font-size: 1em;
         font-weight: bold;
-        padding: 0.6em 6.6em;
+        /* padding: 0.6em 6.6em; */
+        width: 284px;
+        height: 46px;
         position: relative;
         text-transform: uppercase;
     }
@@ -67,7 +70,7 @@ button::after {
     }
 
     button:hover {
-        color:#7868e6;
+        color:#fff;
         cursor: pointer;
         z-index: 0;
     }
@@ -83,7 +86,7 @@ button::after {
   }
   
   .btn-5::after {
-    background-color: #fff;
+    background-color: #7868e6;
     height: 100%;
     left: -35%;
     top: 0;
@@ -109,3 +112,5 @@ button::after {
         .together_img > img {
             height: 382px;
         }
+
+      
