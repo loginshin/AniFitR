@@ -23,8 +23,8 @@ footer {
     .footer_h  {
         display: flex;
         flex-direction: row;
-        gap: 14px;
-        font-size: 14px;
+        gap: 4vw;
+        font-size: 11px;
     }
     
     .footer_h > nav > a {
@@ -40,18 +40,18 @@ footer {
             display: flex;
             flex-direction:row;
             gap:3vw;
-            font-size: 12px;
+            font-size: 11px;
 
         }
 
             .footer_b1 {
                 display: flex;
-                gap: 3vw;
+                gap: 5vw;
             }
 
             .footer_b2 {
                 display: flex;
-                gap: 3vw;
+                gap: 5vw;
             }
 
             @media (max-width:1000px) {
@@ -59,13 +59,24 @@ footer {
                     display: flex;
                     flex-direction:column;
                     gap:1vw;
-                    font-size: 12px;
+                    font-size: 6px;
         
                 }
+
+                .footer_h  {
+                    gap: 2vw;
+                    font-size: 14px;
+                }
+
+
             }
 
             @media (max-width:499px) {
                 .footer_b {
                     font-size:8px
+                }
+
+                .footer_h  {
+                    font-size: 8px;
                 }
             }
