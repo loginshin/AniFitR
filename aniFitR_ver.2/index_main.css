@@ -28,6 +28,7 @@
             .main_head_txt > p {
                 line-height: 32px;
                 font-size: 24px;
+                font-weight: Regular;
             }
 
             .main_head_txt > p > strong {

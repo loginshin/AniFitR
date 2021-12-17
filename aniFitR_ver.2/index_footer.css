@@ -16,25 +16,30 @@ footer {
         flex-direction: column;
         gap:24px;
         white-space : nowrap;
+        font-weight: Regular;
         
     }
-
-        .footer_h  {
-            display: flex;
-            flex-direction: row;
-            gap: 14px;
-            font-size: 14px;
-            font-weight: bold;
+    
+    .footer_h  {
+        display: flex;
+        flex-direction: row;
+        gap: 14px;
+        font-size: 14px;
+    }
+    
+    .footer_h > nav > a {
+        color: white;
         }
 
-        .footer_h > nav {
-            text-decoration: underline;
-        }
+        .footer_h > nav:active {
+            transform: translate(2px,2px);
+            }
+
 
         .footer_b {
             display: flex;
             flex-direction: row;
-            gap:20px;
+            gap:78px;
             font-size: 12px;
 
         }

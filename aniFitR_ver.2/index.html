@@ -5,6 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>AniFit</title>
+
+        <!-- =========================Font================== -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+        
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="h_under.css">
         <link rel="stylesheet" href="index_head.css">
@@ -19,7 +25,9 @@
     <body>
         <section>
             <div class="wrap">
-                <div class="h_img"><img src="img/H_img.png"></div>
+                <div class="h_img">
+                    <img src="img/H_img.png">
+                </div>
             </div>
             <div class="main">
                 <div class="main_head">
@@ -170,16 +178,22 @@
             <div class="leg">
                 <div class="together_txt">
                     <div class="together"><h2>애니핏365와 함께하기</h2></div>
-                    <div><button>입점신청</button></div>
+
+                    <!-- ========================Button========================== -->
+                    <button class="btn-5" onclick="window.open('https://pf.kakao.com/_fxjRVb')">입점신청</button>
+
+
                     <div><p>*성함, 연락처, 운동(시설)명, 참고가능한 사이트 등을 보내주세요.</p></div>
                 </div>
+
+
                 <div class="together_img"><img src="img/together.png"></div>
             </div>
             <footer>
                 <div class="footer_content">    
                     <div class="footer_h">
                         <span>애니핏365</span>
-                        <nav>1:1 문의하기</nav>
+                        <nav><a href="https://pf.kakao.com/_fxjRVb" target='_blank'>1:1 문의하기</a></nav>
                     </div>
                     <div class="footer_b">
                         <span>사업자등록번호 : 388-72-00381</span>

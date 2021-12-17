@@ -5,23 +5,29 @@ section {
     font-family: 'Noto Sans KR';
     white-space : nowrap;
     position: relative;
+    
 }
+
+
     .wrap{
         display: flex;
         width: 100%;
         flex-wrap: wrap;
         justify-content: center;
+  
+        
     }
+
 
         .h_img {
             display: flex;
-            max-width: 1040px;
             justify-content: center;
+            width: 100%;
             margin-top: 160px;
             margin-bottom: 160px;
+            position: relative;
         }
         
         .h_img > img {
-                width: 100%;
+            max-width: 1040px;
             }
-
