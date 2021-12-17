@@ -24,11 +24,12 @@ footer {
         display: flex;
         flex-direction: row;
         gap: 4vw;
-        font-size: 11px;
+        font-size: 18px;
     }
     
     .footer_h > nav > a {
         color: white;
+        font-size:14px
         }
 
         .footer_h > nav:active {
@@ -41,7 +42,6 @@ footer {
             flex-direction:row;
             gap:3vw;
             font-size: 11px;
-
         }
 
             .footer_b1 {
