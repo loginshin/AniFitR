@@ -1,3 +1,13 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+
 section {
     background-color: #7868e6;
     display: flex;

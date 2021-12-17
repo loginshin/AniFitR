@@ -55,3 +55,15 @@
                 }
     
             }
+
+            @media (max-width:499px) {
+                .main_head_h > h1 {
+                    font-size: 30px;
+                    line-height: 36px;
+                }
+
+                .main_head_txt > p {
+                    font-size: 16px;
+                    line-height: 18px;
+                }
+            }

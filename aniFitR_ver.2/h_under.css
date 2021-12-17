@@ -24,3 +24,14 @@
 .h_under > .h_under_img > img {
     border: 1px solid white;
 }
+
+
+@media (max-width:499px) {
+    .h_under {
+        font-size: 28px;
+    }
+    
+    .h_under > .h_under_img{
+        width: 200px
+    }
+}

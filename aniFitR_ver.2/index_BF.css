@@ -108,3 +108,39 @@
                         align-items: center;
                     }
                 }
+
+
+                @media (max-width:499px) {
+                    .BF_imgbox{
+                        gap: 20px;
+                    }
+
+                    .BF_txt {
+                        gap: 12px;
+                        width: 100%;
+                    }
+
+                    .BF_txtbox > h2 {
+                        font-size: 22px;
+
+                        margin-bottom: 20px;
+                    }
+
+                    .BF_txt > p {
+                        line-height: 12px;
+                        font-size: 14px;
+                        font-weight: Regular;
+                        }
+
+
+                        .BF_img > img {
+                            width: 100%; 
+                        }
+            
+                         
+                        .BF_img2 > img {
+                            width: 100%; 
+                    }
+
+
+                }
