@@ -23,55 +23,55 @@
             display:flex;
             align-items: center;
             justify-content: center;
-            gap: 250px;
+            gap: 18vmax;
+            gap: 18vmin;
             
         }
 
 
 
-        .HTU_contentbox {
-                width: fit-content;
-                display: flex;
-                flex-direction: column;
-                text-align: center;
-                justify-content: flex-end;
-                max-width: 232px;
-            }
-        
-                .HTU_img {
-
-                    height: 214px;
-                }
-                
-                .HTU_img > img {
-                    height: 100%;
-                    width: 100%;
-                }   
-
-            .HTU_txt {
-                display: flex;
-                flex-direction: column;
-                gap: 16px;
-                margin-top: 50px;
-            }
-
-            .HTU_txt > h2 {
-                font-size: 24px;
-                font-weight: bold;
-            }
-                
-            .HTU_txt > p {
-                font-size: 20px;
-                line-height: 24px;
-                font-weight: Regular;
-            }
-
-
-            @media (max-width: 1000px) {
-                .HTU_content {
-                    margin-top: 140px;
-                    display:flex;
-                    justify-content: center;
+            .HTU_contentbox {
+                    width: fit-content;
+                    display: flex;
                     flex-direction: column;
-                    
+                    text-align: center;
+                    justify-content: flex-end;
+                    max-width: 232px;
                 }
+            
+                    .HTU_img {
+
+                        height: 214px;
+                    }
+                    
+                    .HTU_img > img {
+                        height: 100%;
+                        min-width: 100%;
+                    }   
+
+                .HTU_txt {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+                    margin-top: 50px;
+                }
+
+                .HTU_txt > h2 {
+                    font-size: 24px;
+                    font-weight: bold;
+                }
+                    
+                .HTU_txt > p {
+                    font-size: 20px;
+                    line-height: 24px;
+                    font-weight: Regular;
+                }
+
+
+                @media (max-width: 1000px) {
+                    .HTU_content {
+                        margin-top: 140px;
+                        display:flex;
+                        justify-content: center;
+                        flex-direction: column;
+                    }

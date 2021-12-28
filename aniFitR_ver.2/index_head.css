@@ -1,7 +1,17 @@
+html {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 2000px;
+    width: 100%;
 
 }
 

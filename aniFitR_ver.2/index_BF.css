@@ -41,7 +41,6 @@
     
         .BF_img2 {
             height: 100%;
-            min-width:390px ;
         }
 
         
@@ -51,7 +50,7 @@
 
              
         .BF_img2 > img {
-            height: 254px; 
+            width: 390px; 
         }
 
         .BF_txtbox {
@@ -136,11 +135,9 @@
                         .BF_img > img {
                             width: 100%; 
                         }
-            
-                         
-                        .BF_img2 > img {
-                            width: 100%; 
-                    }
 
+                        .BF_img2 > img {
+                            max-width: 370px; 
+                        }
 
                 }
